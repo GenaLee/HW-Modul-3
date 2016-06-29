@@ -34,7 +34,6 @@ html, body{
   padding-top:13px;
   background-color: #585858;
   vertical-align: middle;
-  
   padding-right: 24px;
   padding-left: 24px;
   height: 27px;
@@ -49,3 +48,38 @@ html, body{
 	border-right-width: 1px;
 }
 
+.sidebar{
+    width:150px;
+    display: block;
+    float: left;
+    }
+.content{
+    display: block;
+    margin-left: 160px;
+    background-color: green; 
+    border:solid 2px green;
+}
+
+.sidebar_button{
+	display: inline-block;
+	font-size: 13px;
+	font-family: Arial;
+	height: 27px;
+	color: grey;
+	padding-top: 13px;
+	padding-left: 15px;
+	border: solid 1px grey;
+	width: 135px;
+}
+.sidebar_button:hover{
+	padding-left: 30px;
+	width: 120px;
+	font-style: bold;
+	color:black;
+}
+.conteiner{
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
