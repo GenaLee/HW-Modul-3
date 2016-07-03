@@ -37,20 +37,17 @@ body {
     display: block;
 }
 
-.top_button {
+.top_menu li{
     color: white;
     cursor: pointer;
     float: left;
     font-size: 13px;
     font-family: Arial;
     height: 27px;
-    margin-right: 10px;
-    padding-top: 13px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 13px 24px 0 24px;
 }
 
-.top_button:hover {
+.top_menu li:hover {
     background-color: #414141;
     border-color: #838383;
     border-style: solid;
@@ -72,18 +69,20 @@ body {
     width: 180px;
 }
 
-.sidebar_button {
+.sidebar_menu li a{
+    display: inline-block;
+    margin: 0;
+    padding: 13px 0 0 24px;
+    width: 146px;
     border: solid 1px grey;
     color: grey;
     font-size: 13px;
     font-family: Arial;
     height: 27px;
-    padding-top: 13px;
-    padding-left: 24px;
-    width: 146px;
+    text-decoration: none;
 }
 
-.sidebar_button:hover {
+.sidebar_menu li a:hover {
     background-color: #f9f9f9;
     color: black;
     font-style: bold;
@@ -93,11 +92,11 @@ body {
 
 .content {
     display: block;
-    /*margin-left: 230px;*/
+    padding: 0;
     float: right;
     font-family: Arial;
     font-size: 13px;
-    width: 680px;
+    width: 650px;
 }
 
 .content_pic {
@@ -107,20 +106,8 @@ body {
 }
 
 .content_text {
-    padding-top: 40px;
-    padding-left: 24px;
-    padding-right: 25px;
+    padding: 40px 0 0 0;
     text-align: justify;
-}
-
-a {
-    color: grey;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-    font-style: bold;
 }
 
 .footer {
@@ -134,20 +121,23 @@ a:hover {
     list-style: none;
 }
 
-.footer_button {
+.footer_menu li{
+    float: left;
+}
+
+.footer_menu li a{
+    display: inline-block;
+    text-decoration: none;
     color: black;
     cursor: pointer;
     float: left;
     font-size: 13px;
     font-family: Arial;
     height: 27px;
-    margin-right: 10px;
-    padding-top: 13px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 13px 24px 0 24px;
 }
 
-.footer_button:hover {
+.footer_menu li a:hover {
     text-decoration: underline;
 }
 
